@@ -2,6 +2,12 @@
 
 spring-cloud-netfiix-oss
 
+spring cloud 快速框架
+
+spring boot版本：2.1.6.RELEASE
+
+spring cloud版本：Greenwich.SR1
+
 ## Tmri-Plate模块说明
 
 ![](http://temp.oasestea.com/Fruf5juRqdDs2CGlg1hR56wMEsCc)
@@ -26,14 +32,18 @@ spring-cloud-netfiix-oss
 ### 平台网关（tmri-plate-zuul）
 
 网关:spring-cloud-netflix-zuul
+
 启动：TmriPlateZuulApplication
+
 服务网址:http://localhost:8888
 
 
 ### 平台服务注册和发现（tmri-plate-eureka）
 
 网关:spring-cloud-netflix-eureka
+
 启动：TmriPlateEurekaApplication
+
 服务网址:http://localhost:8000
 
 ![](http://temp.oasestea.com/Fv6D_4JCF0Vmugejl_YTbEwvDoWo)
