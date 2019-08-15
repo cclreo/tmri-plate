@@ -25,7 +25,7 @@ spring cloud版本：Greenwich.SR1
 
 ## Tmri-Plate架构
  
- ![](http://temp.oasestea.com/Fj6b-WOM6LdaXp_x0-RRiaSVVKjj)
+![](http://temp.oasestea.com/Fj6b-WOM6LdaXp_x0-RRiaSVVKjj)
 
 ## Tmri-Plate分模块说明
 
@@ -58,7 +58,7 @@ spring cloud版本：Greenwich.SR1
 
 访问：http://localhost:8001
 
- ![](http://temp.oasestea.com/FkkD5WN3uno92fF_CJa_GOo0nOTg)
+![](http://temp.oasestea.com/FkkD5WN3uno92fF_CJa_GOo0nOTg)
 
 ### tmri-plate-turbine: 平台熔断监控
 
@@ -66,12 +66,15 @@ spring cloud版本：Greenwich.SR1
 有很多个微服务的时候，这就需要用Turbine聚合所有服务的Hystrix Dashboard。
 
 启动：TmriPlateTurbineApplication
+
 访问：http://localhost:8002/hystrix
 
 ### 业务微服务（tmri-plate-modules）
 
 service-user: 用户服务
+
 service-common：公共服务
+
 service-test：测试服务
 
 
