@@ -1,17 +1,17 @@
-package com.tmri;
+package com.tmri.plate.admin;
 
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
+@EnableAdminServer
 @EnableDiscoveryClient
-public class TmriPlateServiceTestApplication {
+public class PlateAdminApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TmriPlateServiceTestApplication.class, args);
+        SpringApplication.run(PlateAdminApplication.class, args);
     }
 
 }
