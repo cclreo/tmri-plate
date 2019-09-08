@@ -40,6 +40,8 @@ public class ItemServiceImpl implements ItemService {
 
     }
 
+
+
     @Override
     public List<Item> query() {
 
@@ -57,6 +59,9 @@ public class ItemServiceImpl implements ItemService {
                 log.info(item.toString());
             }
         });
+
+        log.info(itemRepository.findByTitle("坚果手机R1").toString());
+
         return list;
 
     }

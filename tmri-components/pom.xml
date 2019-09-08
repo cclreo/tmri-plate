@@ -13,6 +13,7 @@
 
     <modules>
         <module>com-elasticsearch</module>
+        <module>com-kafka</module>
     </modules>
 
 

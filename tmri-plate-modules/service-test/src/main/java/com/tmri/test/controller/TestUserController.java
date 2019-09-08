@@ -24,6 +24,12 @@ public class TestUserController {
     @GetMapping("get_server_list")
     public Result get_server_list(){
 
+        try {
+            Thread.sleep(30000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("id",1000);
         jsonObject.put("name","服务器1");
